@@ -1,0 +1,42 @@
+.container {
+    background-color: beige;
+    height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.item{
+    width: 40px;
+    height: 40px;
+}
+
+.item1{
+    background-color: #d32f2f;
+}
+.item2{
+    background-color: #7b1fa2;
+}
+.item3{
+    background-color: #512da8;
+}
+.item4{
+    background-color: #303f9f;
+}
+.item5{
+    background-color: #1976d2;
+}
+.item6{
+    background-color: #0288d1;
+}
+.item7{
+    background-color: #0097a7;
+}
+.item8{
+    background-color: #00796b;
+}
+.item9{
+    background-color: #388e3c;
+}
+.item10{
+    background-color: #f4511e;
+}
