@@ -1,0 +1,16 @@
+
+.header {
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    background-color: skyblue;
+    height: 2em;
+    font-size: 2rem;
+    border: 5px solid red;
+}
+
+@media screen and (max-width: 1000px){
+    .header{
+        flex-direction: column;
+    }
+}
