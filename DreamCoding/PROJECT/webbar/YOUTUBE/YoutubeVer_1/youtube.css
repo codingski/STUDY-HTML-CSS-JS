@@ -1,0 +1,141 @@
+body{
+    margin: 0px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 48px;
+    align-items: center;
+    font-size: 22px;
+    background-color: black;
+    color: white;
+}
+
+.nav__logo i{
+    color:  red;
+}
+
+.nav__logo a{
+ text-decoration: none;
+ color: white;
+}
+
+.nav__search{
+    display: flex;
+    justify-content: space-between;
+    width: 50px;
+    padding-right: 20px;
+}
+
+.youtube{
+    position: sticky;
+    top: 0px;
+}
+.hashtag {
+    display: flex;
+    padding-left: 0px;
+    margin: 0px;
+
+}
+.hashtag li{
+    list-style: none;
+    padding: 0px 7px;
+}
+.hashtag a{
+    text-decoration: none;
+    color: blue;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+.title p{
+    margin-bottom: 0px;
+    padding: 0px 7px;
+}
+.date p{
+    margin: 0px;
+    font-size: 12px;
+    color: rgb(92, 89, 89);
+    padding: 0px 7px;
+}
+.etc{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 0px;
+}
+
+.etc li {
+    list-style: none;
+}
+.etc a{
+    text-decoration: none;
+    color: gray;
+}
+.etc a:hover{
+    color: skyblue;
+}
+
+.user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 20px;
+    padding: 5px 0px;
+    border-top: 1.5px solid gray;
+    border-bottom: 1.5px solid gray;
+}
+
+.user__img img{
+    border-radius: 100px;
+    width: 50px;
+}
+.user__title{
+    position: absolute;
+    left: 80px;
+}
+
+.user__title p{
+    margin: 0px;
+}
+.user__sub{
+    padding-right: 10px;
+    font-weight: 700;
+}
+
+
+aside{
+    display: flex;
+    flex-direction: column;
+}
+.upnext{
+    padding: 7px 0px 7px 7px;
+}
+.aside__title{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.aside__img img{
+    width: 200px;
+}
+
+.aside__describe {
+    padding-left: 5px;
+}
+.aside__describe p {
+    margin: 0px;
+}
+
+.aside__more{
+    padding: 0px 15px;
+}
+
+@media screen and (min-width: 1000px){
+    .realmain{
+        display: flex;
+    }
+}
