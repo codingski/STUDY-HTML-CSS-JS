@@ -36,6 +36,6 @@ function calculate (command, a, b) {
         case 'remainder':
             return a % b;
         default:
-            return console.log('No!!');
+            return Error('No!!');
     }
 }
