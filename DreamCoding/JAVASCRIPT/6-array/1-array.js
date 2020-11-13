@@ -1,4 +1,4 @@
-// 1. Array
+/// 1. Array
 
 // 1. Declaration
 const arr1 = new Array();
