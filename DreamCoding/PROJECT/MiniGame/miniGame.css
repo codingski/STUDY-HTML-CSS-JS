@@ -1,0 +1,94 @@
+body {
+    background-color: gray;
+}
+
+.mainLogo{
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.btnList {
+    height: 50px;
+    width: 500px;
+    margin-top: 20px;
+    margin-left:600px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.btnList img:hover {
+    width: 55px;
+}
+
+.btnList img {
+    width: 45px;
+}
+.btnList .tshirt {
+    background-color: gray;
+    border: 0;
+    outline: 0;
+}
+
+.btnList .pants {
+    background-color: gray;
+    border: 0;
+    outline: 0;
+}
+
+.btnList .skirt {
+    background-color: gray;
+    border: 0;
+    outline: 0;
+}
+
+.btnList .blue {
+    background-color: skyblue;
+    border: 0;
+    outline: 0;
+}
+
+.btnList .yellow {
+    background-color: yellow;
+    border: 0;
+    outline: 0;
+}
+
+.btnList .pink {
+    background-color: pink;
+    border: 0;
+    outline: 0;
+}
+
+
+.itemList {
+    width: 500px;
+    margin-left:600px;
+    overflow: scroll;
+    padding: 0 0;
+    height: 50vh;
+}
+
+::-webkit-scrollbar {
+
+    display:none;
+    
+}
+
+.itemList .item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    list-style: none;
+    padding-left: 15px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.itemList .item img {
+    width: 45px;
+}
+
+.item__describe {
+    padding-left: 10px;
+}
