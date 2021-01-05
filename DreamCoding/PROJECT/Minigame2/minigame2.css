@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: gray;
+}
+
+.mainLogo {
+    cursor: pointer;
+    transition: transform 300ms ease;
+}
+
+.mainLogo:hover {
+    transform: scale(1.1);
+}
+
+.btnList {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.btnList button {
+    margin-right: 8px;
+    cursor: pointer;
+    background-color: transparent;
+    transition: transform 300ms ease;
+    border: 0px;
+    border-radius: 5px;
+    outline: 0px;
+}
+
+.btnList button:hover {
+    -webkit-transform:scale(1.1);
+}
+
+.btnList button img {
+    height: 50px;
+}
+
+.btnList .blue {
+    background-color: skyblue;
+    font-size: 23px;
+    padding: 8px;
+}
+
+.btnList .yellow {
+    background-color: orange;
+    font-size: 23px;
+    padding: 8px;
+}
+
+.btnList .pink {
+    background-color: pink;
+    font-size: 23px;
+    padding: 8px;
+}
+
+.items {
+    width: 60%;
+    height: 60%;
+    overflow: scroll;
+}
+
+.items::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
+
+.items li {
+    background-color: white;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.items li img {
+    height: 50px;
+    margin-right: 20px;
+    margin-left: 10px;
+}

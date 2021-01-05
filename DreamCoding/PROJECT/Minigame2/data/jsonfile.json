@@ -1,0 +1,130 @@
+{
+    "items": [
+        {
+            "type": "tshirt",
+            "gender": "male",
+            "size": "large",
+            "color": "blue",
+            "image": "data/img/blue_t.png"
+        },
+        {
+            "type": "tshirt",
+            "gender": "female",
+            "size": "small",
+            "color": "yellow",
+            "image": "data/img/yellow_t.png"
+        },
+        {
+            "type": "tshirt",
+            "gender": "female",
+            "size": "large",
+            "color": "pink",
+            "image": "data/img/pink_t.png"
+        },
+        {
+            "type": "pants",
+            "gender": "male",
+            "size": "large",
+            "color": "blue",
+            "image": "data/img/blue_p.png"
+        },
+        {
+            "type": "pants",
+            "gender": "female",
+            "size": "small",
+            "color": "yellow",
+            "image": "data/img/yellow_p.png"
+        },
+        {
+            "type": "pants",
+            "gender": "female",
+            "size": "small",
+            "color": "pink",
+            "image": "data/img/pink_p.png"
+        },
+        {
+            "type": "skirt",
+            "gender": "female",
+            "size": "large",
+            "color": "blue",
+            "image": "data/img/blue_s.png"
+        },
+        {
+            "type": "skirt",
+            "gender": "female",
+            "size": "large",
+            "color": "yellow",
+            "image": "data/img/yellow_s.png"
+        },
+        {
+            "type": "skirt",
+            "gender": "female",
+            "size": "small",
+            "color": "pink",
+            "image": "data/img/pink_s.png"
+        },
+        {
+            "type": "tshirt",
+            "gender": "male",
+            "size": "large",
+            "color": "blue",
+            "image": "data/img/blue_t.png"
+        },
+        {
+            "type": "tshirt",
+            "gender": "female",
+            "size": "small",
+            "color": "yellow",
+            "image": "data/img/yellow_t.png"
+        },
+        {
+            "type": "tshirt",
+            "gender": "female",
+            "size": "large",
+            "color": "pink",
+            "image": "data/img/pink_t.png"
+        },
+        {
+            "type": "pants",
+            "gender": "male",
+            "size": "large",
+            "color": "blue",
+            "image": "data/img/blue_p.png"
+        },
+        {
+            "type": "pants",
+            "gender": "female",
+            "size": "small",
+            "color": "yellow",
+            "image": "data/img/yellow_p.png"
+        },
+        {
+            "type": "pants",
+            "gender": "female",
+            "size": "small",
+            "color": "pink",
+            "image": "data/img/pink_p.png"
+        },
+        {
+            "type": "skirt",
+            "gender": "female",
+            "size": "large",
+            "color": "blue",
+            "image": "data/img/blue_s.png"
+        },
+        {
+            "type": "skirt",
+            "gender": "female",
+            "size": "large",
+            "color": "yellow",
+            "image": "data/img/yellow_s.png"
+        },
+        {
+            "type": "skirt",
+            "gender": "female",
+            "size": "small",
+            "color": "pink",
+            "image": "data/img/pink_s.png"
+        }
+    ]
+}
